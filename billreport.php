@@ -1,8 +1,11 @@
 <?php
+ini_set('display_errors', 1);
+
 //reference the Dompdf namespace
 require_once 'dompdf/autoload.inc.php';
 include_once 's-shared.php';
 require_once 'logo.php';
+
 
 use Dompdf\Dompdf;
 //initialize dompdf class
