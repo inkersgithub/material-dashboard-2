@@ -6,7 +6,7 @@
 
 //Environemnt - Production, Development
 session_start();
-$env = 'Development';
+$env = 'Productio';
 date_default_timezone_set("Asia/Calcutta");
 CustomConstructor();
 include_once "s-mailservice.php";
@@ -29,9 +29,9 @@ function ConnectToDatabase()
     global $con;
 
     if ($env == 'Production') {
-        $con = mysqli_connect("localhost", "alpha", "alpha1234", "prod_3_klcscvlesociety") or die("Error" . mysqli_error($con));
+        $con = mysqli_connect("localhost", "root", "Gamma@1234", "cscvlethrissur") or die("Error" . mysqli_error($con));
     } else {
-        $con = mysqli_connect("localhost", "root", "", "a") or die("Error" . mysqli_error($con));
+        $con = mysqli_connect("localhost", "root", "root", "a") or die("Error" . mysqli_error($con));
     }
 }
 

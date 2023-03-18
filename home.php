@@ -156,9 +156,10 @@ $links = FetchLinks(1);
                </div>
           </nav> -->
           <div class="container-fluid px-2 px-md-4">
-               <!-- <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=1920&amp;q=80');">
-                    <span class="mask  bg-gradient-primary  opacity-6"></span>
-               </div> -->
+               <div class="page-header min-height-300 border-radius-xl mt-4" style="background-image: url('./assets/bgImage.jpg');background-size: 96% 150%;
+    background-repeat: no-repeat;">
+                    <span class="  bg-gradient-primary  opacity-6"></span>
+               </div>
                <div class="card card-body mx-3 mx-md-4 mt-n6" style="margin-top:7% !important;">
                     <div class="card card-body mx-3 mx-md-4 mt-n6">
                          <div class="row">

@@ -95,7 +95,6 @@ $html = '<html>
 </style>
 </head>
 <body data-new-gr-c-s-check-loaded="14.997.0" data-gr-ext-installed="">
-<h1 style="text-align:center"><img style="width: 170px;margin-top: 0%;" src="' . $logoImage . '"></h1>
  <h3 style="text-align:center;margin:4px">' . $headerTitle . '</h3>
  <h4 style="text-align:center;margin:4px">' . $userObj->name . ', '.$userObj->uid.'</h4>
  <h4 style="text-align:center;margin:4px">' . $userObj->address_line1 . ', '.$userObj->address_line2.', '.$userObj->address_line3.', '.$userObj->pincode.'</h4>

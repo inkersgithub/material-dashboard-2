@@ -35,9 +35,9 @@ include_once 's-header.php';
             <div class="card z-index-0 fadeIn3 fadeInBottom">
               <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                 <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
+                  <img src="assets/bgImage.jpg" style="width: 101%;">
                   <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">Sign in</h4>
                   <div class="row mt-3">
-                    <p>Logo</p>
                   </div>
                 </div>
               </div>
@@ -74,7 +74,7 @@ include_once 's-header.php';
           <div class="row align-items-center justify-content-lg-between">
             <div class="col-12 col-md-12 my-auto">
               <div class="copyright text-center text-sm text-white text-lg-start" style="text-align: center !important;">
-                © <script>
+                © KL-CSC-VLE SOCIETY THRISSUR <script>
                   document.write(new Date().getFullYear())
                 </script>,
                 made with <i class="fa fa-heart" aria-hidden="true"></i> by
